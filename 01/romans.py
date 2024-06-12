@@ -109,24 +109,3 @@ def roman_to_int(num):
     return decimal
     
     # O código acima foi obtido através do CHAT GPT
-
-running = True
-resultado = 0
-
-while running == True:
-
-    Op = int(input('1: Decimal -> Romano; 2: Romano -> Decimal; 0: Encerrar \n \n Insira a função desejada: '))
-
-    match Op:
-        case 1:
-            Val = int(input('Insira o valor a ser convertido para número romano: '))
-            str(resultado)
-            saida = int_to_roman(Val)
-            print(saida)
-        case 2:
-            Val = str(input('Insira o valor a ser convertido para número decimal: '))
-            int(resultado)
-            saida = roman_to_int(Val)
-            print(saida)
-        case 0:
-            running = False
